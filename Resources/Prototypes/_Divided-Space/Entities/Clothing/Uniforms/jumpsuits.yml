@@ -5,9 +5,9 @@
   description:
   components:
   - type: Sprite
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/atmos.yml
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/atmos.rsi
   - type: Clothing
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/atmos.yml
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/atmos.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -16,9 +16,9 @@
   description:
   components:
   - type: Sprite
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/cargotech.yml
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/cargo.rsi
   - type: Clothing
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/cargotech.yml
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/cargo.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -27,9 +27,9 @@
   description:
   components:
   - type: Sprite
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/chef.yml
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/chef.rsi
   - type: Clothing
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/chef.yml
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/chef.rsi
 
 - type: entity
   parent: [ClothingUniformBase, ClothingOuterStorageBase]
@@ -38,9 +38,9 @@
   description:
   components:
   - type: Sprite
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/co.yml
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/co.rsi
   - type: Clothing
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/co.yml
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/co.rsi
   - type: Armor
     modifiers:
       coefficients:
@@ -56,9 +56,9 @@
   description:
   components:
   - type: Sprite
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/coformal.yml
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/coformal.rsi
   - type: Clothing
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/coformal.yml
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/coformal.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -67,9 +67,9 @@
   description:
   components:
   - type: Sprite
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/highcom.yml
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/highcom.rsi
   - type: Clothing
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/highcom.yml
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/highcom.rsi
 
 - type: entity
   parent: [ClothingUniformBase, ClothingOuterStorageBase]
@@ -78,9 +78,9 @@
   description:
   components:
   - type: Sprite
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/hydro.yml
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/hydro.rsi
   - type: Clothing
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/hydro.yml
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/hydro.rsi
 
 - type: entity
   parent: [ClothingUniformBase, ClothingOuterStorageBase]
@@ -89,9 +89,9 @@
   description:
   components:
   - type: Sprite
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/maintenance.yml
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/maintenance.rsi
   - type: Clothing
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/maintenance.yml
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/maintenance.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -100,9 +100,9 @@
   description:
   components:
   - type: Sprite
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/medic.yml
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/medic.rsi
   - type: Clothing
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/medic.yml
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/medic.rsi
 
 - type: entity
   parent: [ClothingUniformBase, ClothingOuterStorageBase]
@@ -111,9 +111,9 @@
   description:
   components:
   - type: Sprite
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/paramedic.yml
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/paramedic.rsi
   - type: Clothing
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/paramedic.yml
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/paramedic.rsi
 
 - type: entity
   parent: [ClothingUniformBase, ClothingOuterStorageBase]
@@ -122,9 +122,9 @@
   description:
   components:
   - type: Sprite
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/rd.yml
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/rd.rsi
   - type: Clothing
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/rd.yml
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/rd.rsi
   - type: Armor
     modifiers:
       coefficients:
@@ -139,9 +139,9 @@
   description:
   components:
   - type: Sprite
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/rdformal.yml
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/rdformal.rsi
   - type: Clothing
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/rdformal.yml
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/rdformal.rsi
 
 - type: entity
   parent: [ClothingUniformBase, ClothingOuterStorageBase]
@@ -150,9 +150,9 @@
   description:
   components:
   - type: Sprite
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/research.yml
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/research.rsi
   - type: Clothing
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/research.yml
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/research.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -161,9 +161,9 @@
   description:
   components:
   - type: Sprite
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/security.yml
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/security.rsi
   - type: Clothing
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/security.yml
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/security.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -172,9 +172,9 @@
   description:
   components:
   - type: Sprite
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/supervisor.yml
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/supervisor.rsi
   - type: Clothing
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/supervisor.yml
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/supervisor.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -183,9 +183,9 @@
   description:
   components:
   - type: Sprite
-    sprite: _Divided-Space/Clothing/Uniforms/Jumpsuit/GorlexLLC/agent.yml
+    sprite: _Divided-Space/Clothing/Uniforms/Jumpsuit/GorlexLLC/agent.rsi
   - type: Clothing
-    sprite: _Divided-Space/Clothing/Uniforms/Jumpsuit/GorlexLLC/agent.yml
+    sprite: _Divided-Space/Clothing/Uniforms/Jumpsuit/GorlexLLC/agent.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -194,9 +194,9 @@
   description:
   components:
   - type: Sprite
-    sprite: _Divided-Space/Clothing/Uniforms/Jumpsuit/GorlexLLC/medic.yml
+    sprite: _Divided-Space/Clothing/Uniforms/Jumpsuit/GorlexLLC/medic.rsi
   - type: Clothing
-    sprite: _Divided-Space/Clothing/Uniforms/Jumpsuit/GorlexLLC/medic.yml
+    sprite: _Divided-Space/Clothing/Uniforms/Jumpsuit/GorlexLLC/medic.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -205,6 +205,6 @@
   description:
   components:
   - type: Sprite
-    sprite: _Divided-Space/Clothing/Uniforms/Jumpsuit/GorlexLLC/tech.yml
+    sprite: _Divided-Space/Clothing/Uniforms/Jumpsuit/GorlexLLC/tech.rsi
   - type: Clothing
-    sprite: _Divided-Space/Clothing/Uniforms/Jumpsuit/GorlexLLC/tech.yml
+    sprite: _Divided-Space/Clothing/Uniforms/Jumpsuit/GorlexLLC/tech.rsi
