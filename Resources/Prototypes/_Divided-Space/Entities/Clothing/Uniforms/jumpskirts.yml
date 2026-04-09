@@ -1,0 +1,166 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitTypanAtmos
+  name: atmos technician uniform
+  description:
+  components:
+  - type: Sprite
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpskirt/atmos.yml
+  - type: Clothing
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpskirt/atmos.yml
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitTypanCargoTech
+  name: cargo-technician uniform
+  description:
+  components:
+  - type: Sprite
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpskirt/cargotech.yml
+  - type: Clothing
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpskirt/cargotech.yml
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitTypanChef
+  name: typan chef uniform
+  description:
+  components:
+  - type: Sprite
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpskirt/chef.yml
+  - type: Clothing
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpskirt/chef.yml
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitTypanCO
+  name: communication officer uniform
+  description:
+  components:
+  - type: Sprite
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpskirt/co.yml
+  - type: Clothing
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpskirt/co.yml
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Piercing: 0.85
+        Heat: 0.85
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitTypanCOFormal
+  name: communication officer formal uniform
+  description:
+  components:
+  - type: Sprite
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpskirt/coformal.yml
+  - type: Clothing
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpskirt/coformal.yml
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitTypanHydro
+  name: typan botanist uniform
+  description:
+  components:
+  - type: Sprite
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpskirt/hydro.yml
+  - type: Clothing
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpskirt/hydro.yml
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitTypanMaintenance
+  name: typan maintenance uniform
+  description:
+  components:
+  - type: Sprite
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpskirt/maintenance.yml
+  - type: Clothing
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpskirt/maintenance.yml
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitTypanMedic
+  name: typan medic uniform
+  description:
+  components:
+  - type: Sprite
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpskirt/medic.yml
+  - type: Clothing
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpskirt/medic.yml
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitTypanParamedic
+  name: typan paramedic uniform
+  description:
+  components:
+  - type: Sprite
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpskirt/paramedic.yml
+  - type: Clothing
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpskirt/paramedic.yml
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitTypanRD
+  name: research director uniform
+  description:
+  components:
+  - type: Sprite
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpskirt/rd.yml
+  - type: Clothing
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpskirt/rd.yml
+  - type: Armor
+    modifiers:
+      coefficients:
+        Piercing: 0.9
+        Heat: 0.9
+        Caustic: 0.9
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitTypanRDFormal
+  name: research director formal uniform
+  description:
+  components:
+  - type: Sprite
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpskirt/rdformal.yml
+  - type: Clothing
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpskirt/rdformal.yml
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitTypanResearch
+  name: typan research uniform
+  description:
+  components:
+  - type: Sprite
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpskirt/research.yml
+  - type: Clothing
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpskirt/research.yml
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitTypanSecurity
+  name: typan recruit uniform
+  description:
+  components:
+  - type: Sprite
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpskirt/security.yml
+  - type: Clothing
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpskirt/security.yml
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitTypanSupervisor
+  name: typan supervisor uniform
+  description:
+  components:
+  - type: Sprite
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpskirt/supervisor.yml
+  - type: Clothing
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpskirt/supervisor.yml
