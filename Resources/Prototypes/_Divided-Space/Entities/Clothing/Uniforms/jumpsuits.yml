@@ -11,7 +11,7 @@
 
 - type: entity
   parent: ClothingUniformBase
-  id: ClothingUniformJumpsuitTypanCargoTech
+  id: ClothingUniformJumpsuitTypanCargo
   name: cargo-technician uniform
   description:
   components:
@@ -78,9 +78,9 @@
   description:
   components:
   - type: Sprite
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/hydro.rsi
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/botanist.rsi
   - type: Clothing
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/hydro.rsi
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/botanist.rsi
 
 - type: entity
   parent: [ClothingUniformBase, ClothingOuterStorageBase]
@@ -89,9 +89,9 @@
   description:
   components:
   - type: Sprite
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/maintenance.rsi
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/technician.rsi
   - type: Clothing
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/maintenance.rsi
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/technician.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -150,20 +150,20 @@
   description:
   components:
   - type: Sprite
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/research.rsi
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/researcher.rsi
   - type: Clothing
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/research.rsi
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/researcher.rsi
 
 - type: entity
   parent: ClothingUniformBase
-  id: ClothingUniformJumpsuitTypanSecurity
+  id: ClothingUniformJumpsuitTypanRecruit
   name: typan recruit uniform
   description:
   components:
   - type: Sprite
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/security.rsi
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/recruit.rsi
   - type: Clothing
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/security.rsi
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/recruit.rsi
 
 - type: entity
   parent: ClothingUniformBase
