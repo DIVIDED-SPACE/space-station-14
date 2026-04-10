@@ -152,7 +152,7 @@
   - type: Sprite
     sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpskirt/recruit_jumpskirt.rsi
   - type: Clothing
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpskirt/security_jumpskirt.rsi
+    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpskirt/recruit_jumpskirt.rsi
 
 - type: entity
   parent: ClothingUniformBase

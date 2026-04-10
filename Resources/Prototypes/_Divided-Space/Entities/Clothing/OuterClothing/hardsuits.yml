@@ -37,6 +37,8 @@
     - Hardsuit
     - WhitelistChameleon
 
+# GORLEX HARDSUITS
+
 #Gorlex Phanthom Suit
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseToggleClothing]
@@ -186,5 +188,155 @@
     clothingPrototype: ClothingHeadHelmetHardsuitGorlexMedic
   - type: Tag
     tags:
+    - Hardsuit
+    - WhitelistChameleon
+
+# TYPAN HARDSUITS
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitTypanAdvanced
+  name: typan advanced hardsuit
+  description: Typan combat hardsuit, rebuild with more expansive materials. Not so cheap anymore.
+  components:
+  - type: Sprite
+    sprite: _Divided-Space/Clothing/OuterClothing/Hardsuits/Typan/typanadvanced.rsi
+  - type: Clothing
+    sprite: _Divided-Space/Clothing/OuterClothing/Hardsuits/Typan/typanadvanced.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.03
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.4
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.4
+        Slash: 0.4
+        Piercing: 0.4
+        Heat: 0.5
+        Radiation: 0.5
+        Caustic: 0.5
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.85
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitTypanAdvanced
+  - type: Tag
+    tags:
+    - MonkeyWearable
+    - Hardsuit
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitTypanCombat
+  name: typan combat hardsuit
+  description: Painfully famous blood-red, refined for defensive combat. Heavier but cheaper.
+  components:
+  - type: Sprite
+    sprite: _Divided-Space/Clothing/OuterClothing/Hardsuits/Typan/typancombat.rsi
+  - type: Clothing
+    sprite: _Divided-Space/Clothing/OuterClothing/Hardsuits/Typan/typancombat.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.4
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.4
+        Slash: 0.4
+        Piercing: 0.4
+        Heat: 0.5
+        Radiation: 0.7
+        Caustic: 0.6
+  - type: ClothingSpeedModifier
+    walkModifier: 0.85
+    sprintModifier: 0.8
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitTypanCombat
+  - type: Tag
+    tags:
+    - MonkeyWearable
+    - Hardsuit
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitTypanBasic
+  name: typan basic hardsuit
+  description: Basic hardsuit, designated to Typan crew members.
+  components:
+  - type: Sprite
+    sprite: _Divided-Space/Clothing/OuterClothing/Hardsuits/Typan/typanbasic.rsi
+  - type: Clothing
+    sprite: _Divided-Space/Clothing/OuterClothing/Hardsuits/Typan/typanbasic.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.08
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.6
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.7
+        Slash: 0.8
+        Piercing: 0.8
+        Heat: 0.7
+        Radiation: 0.7
+        Caustic: 0.7
+  - type: ClothingSpeedModifier
+    walkModifier: 0.85
+    sprintModifier: 0.8
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitTypanBasic
+  - type: Tag
+    tags:
+    - MonkeyWearable
+    - Hardsuit
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitTypanTech
+  name: typan technician hardsuit
+  description: Hardsuit built to operate in harsh working environment.
+  components:
+  - type: Sprite
+    sprite: _Divided-Space/Clothing/OuterClothing/Hardsuits/Typan/typantech.rsi
+  - type: Clothing
+    sprite: _Divided-Space/Clothing/OuterClothing/Hardsuits/Typan/typantech.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.03
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.4
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.4
+        Slash: 0.5
+        Piercing: 0.6
+        Heat: 0.6
+        Radiation: 0.2
+        Caustic: 0.3
+  - type: TemperatureProtection
+    coefficient: 0.005
+  - type: FireProtection
+    reduction: 0.2
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.85
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitTypanTech
+  - type: Tag
+    tags:
+    - MonkeyWearable
     - Hardsuit
     - WhitelistChameleon
