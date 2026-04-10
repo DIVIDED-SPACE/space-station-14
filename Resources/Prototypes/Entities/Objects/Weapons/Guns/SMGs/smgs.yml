@@ -175,7 +175,6 @@
   name: Vector
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunVector
-  suffix: Deprecated use Drozd
   description: An excellent fully automatic Heavy SMG. Uses .45 magnum ammo.
   components:
   - type: Sprite
@@ -187,9 +186,20 @@
         map: ["enum.GunVisualLayers.Mag"]
   - type: Clothing
     sprite: Objects/Weapons/Guns/SMGs/vector.rsi
+  - type: Wieldable
+    unwieldOnUse: false
+  - type: GunWieldBonus
+    minAngle: -19 # Divided space edit
+    maxAngle: -16
   - type: Gun
-    fireRate: 6
+    minAngle: 21  # Divided space edit
+    maxAngle: 32
+    fireRate: 5 # 6 Divided space edit
     selectedMode: FullAuto
+    shotsPerBurst: 2
+    availableModes:
+    - Burst
+    - FullAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/atreides.ogg
     availableModes:
@@ -243,7 +253,7 @@
   - type: ChamberMagazineAmmoProvider
     boltClosed: null
   - type: Gun
-    fireRate: 5.5
+    fireRate: 4.5 # 5.5 Divided space edit
     minAngle: 1
     maxAngle: 6
     angleIncrease: 1.5

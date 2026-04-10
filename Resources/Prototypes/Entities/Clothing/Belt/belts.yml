@@ -645,7 +645,7 @@
 - type: entity
   parent: [ClothingBeltStorageBase, ContentsExplosionResistanceBase, BaseSyndicateContraband]
   id: ClothingBeltMilitaryWebbing
-  name: chest rig
+  name: military chest rig
   description: A set of tactical webbing worn by Syndicate boarding parties.
   components:
   - type: Sprite

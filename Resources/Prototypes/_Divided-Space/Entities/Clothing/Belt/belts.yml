@@ -18,14 +18,14 @@
 
 - type: entity
   parent: [ClothingBeltStorageBase, ContentsExplosionResistanceBase]
-  id: ClothingBeltMilitaryWebbing
+  id: ClothingBeltSODWebbing
   name: withered chest rig
   description: A set of menacing tactical webbing infusing people with terror.
   components:
   - type: Sprite
-    sprite: _Divided-Space/Clothing/Belt/sobwebbing.rsi
+    sprite: _Divided-Space/Clothing/Belt/sodwebbing.rsi
   - type: Clothing
-    sprite: _Divided-Space/Clothing/Belt/sobwebbing.rsi
+    sprite: _Divided-Space/Clothing/Belt/sodwebbing.rsi
   - type: Armor
     modifiers:
       coefficients:

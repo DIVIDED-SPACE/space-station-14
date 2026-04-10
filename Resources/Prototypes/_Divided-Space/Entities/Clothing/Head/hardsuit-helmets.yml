@@ -28,6 +28,8 @@
     tags:
     - WhitelistChameleon
 
+#GORLEX HARDSUITS
+
 #Gorlex Phanthom Suit
 - type: entity
   parent: [ClothingHeadHardsuitWithLightBase, ShowSecurityIcons]
@@ -121,4 +123,120 @@
     tags:
     - WhitelistChameleon
 
+#TYPAN HARDSUITS
 
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: ClothingHeadHelmetHardsuitTypanAdvanced
+  name: typan advanced hardsuit helmet
+  description: Helmet of a Typan combat hardsuit, rebuild with more expansive and luxurious materials.
+  components:
+  - type: Sprite
+    sprite: _Divided-Space/Clothing/Head/Hardsuits/Typan/typanadvanced.rsi
+  - type: Clothing
+    sprite: _Divided-Space/Clothing/Head/Hardsuits/Typan/typanadvanced.rsi
+  - type: PointLight
+    color: "#03c178"
+  - type: PressureProtection
+    highPressureMultiplier: 0.06
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.8
+        Piercing: 0.8
+        Heat: 0.8
+  - type: FlashImmunity
+  - type: EyeProtection
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: ClothingHeadHelmetHardsuitTypanCombat
+  name: typan combat hardsuit helmet
+  description: Helmet of a painfully famous blood-red hardsuit, refined for more defense.
+  components:
+  - type: Sprite
+    sprite: _Divided-Space/Clothing/Head/Hardsuits/Typan/typancombat.rsi
+  - type: Clothing
+    sprite: _Divided-Space/Clothing/Head/Hardsuits/Typan/typancombat.rsi
+  - type: PointLight
+    color: "#03c178"
+  - type: PressureProtection
+    highPressureMultiplier: 0.08
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.8
+        Piercing: 0.9
+        Heat: 0.9
+  - type: FlashImmunity
+  - type: EyeProtection
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: ClothingHeadHelmetHardsuitTypanBasic
+  name: typan basic hardsuit helmet
+  description: Made to seal your hardsuit, not really protect you from anything.
+  components:
+  - type: Sprite
+    sprite: _Divided-Space/Clothing/Head/Hardsuits/Typan/typanbasic.rsi
+  - type: Clothing
+    sprite: _Divided-Space/Clothing/Head/Hardsuits/Typan/typanbasic.rsi
+  - type: PointLight
+    color: "#ffeead"
+  - type: PressureProtection
+    highPressureMultiplier: 0.08
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.95
+        Piercing: 0.95
+        Heat: 0.9
+  - type: FlashImmunity
+  - type: EyeProtection
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: ClothingHeadHelmetHardsuitTypanTech
+  name: typan technician hardsuit helmet
+  description: Typan technician helmet. Designed for working in low-pressure, high thermal environments.
+  components:
+  - type: Sprite
+    sprite: _Divided-Space/Clothing/Head/Hardsuits/Typan/typantech.rsi
+  - type: Clothing
+    sprite: _Divided-Space/Clothing/Head/Hardsuits/Typan/typantech.rsi
+  - type: PointLight
+    color: "#03c178"
+  - type: PressureProtection
+    highPressureMultiplier: 0.06
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.8
+        Piercing: 0.9
+        Heat: 0.8
+  - type: TemperatureProtection
+    coefficient: 0.005
+  - type: FireProtection
+    reduction: 0.2
+  - type: FlashImmunity
+  - type: EyeProtection
+  - type: Tag
+    tags:
+    - WhitelistChameleon
