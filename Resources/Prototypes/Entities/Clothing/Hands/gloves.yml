@@ -275,6 +275,20 @@
   - type: Insulated
   - type: Fiber
     fiberMaterial: fibers-insulative
+# Divided Space edit
+  - type: MeleeWeapon
+    attackRate: 2
+    damage:
+      types:
+        Blunt: 6
+    bluntStaminaDamageFactor: 1.2
+    collection: Punch
+    animation: WeaponArcFist
+    mustBeEquippedToUse: true
+  - type: Butcherable
+    butcheringType: Knife
+    spawned:
+    - id: ClothingHandsGlovesCombatFingerless
 
 # can't parent combat gloves since they are butcherable
 - type: entity

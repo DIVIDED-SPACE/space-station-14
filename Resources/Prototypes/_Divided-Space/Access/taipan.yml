@@ -1,0 +1,80 @@
+- type: accessLevel
+  id: TaipanHighCommand
+  name: id-card-access-level-taipan-highcom
+
+- type: accessLevel
+  id: TaipanCO
+  name: id-card-access-level-taipan-officer
+
+- type: accessLevel
+  id: TaipanSecurity
+  name: id-card-access-level-taipan-security
+
+- type: accessLevel
+  id: TaipanArmory
+  name: id-card-access-level-taipan-armory
+
+- type: accessGroup
+  id: TaipanSecurity
+  tags:
+  - TaipanOfficer
+  - TaipanSecurity
+  - TaipanArmory
+
+- type: accessLevel
+  id: TaipanSupervisor
+  name: id-card-access-level-taipan-supervisor
+
+- type: accessLevel
+  id: TaipanAtmos
+  name: id-card-access-level-taipan-atmos
+
+- type: accessLevel
+  id: TaipanCargo
+  name: id-card-access-level-taipan-cargo
+
+- type: accessLevel
+  id: TaipanMaintenance
+  name: id-card-access-level-taipan-maintenance
+
+- type: accessLevel
+  id: TaipanExternal
+  name: id-card-access-level-taipan-external
+
+- type: accessLevel
+  id: TaipanService
+  name: id-card-access-level-taipan-service
+
+- type: accessGroup
+  id: TaipanMaintenance
+  tags:
+  - TaipanSupervisor
+  - TaipanAtmos
+  - TaipanMaintenance
+  - TaipanExternal
+  - TaipanCargo
+  - TaipanService
+
+- type: accessLevel
+  id: TaipanRD
+  name: id-card-access-level-taipan-research-director
+
+- type: accessLevel
+  id: TaipanResearch
+  name: id-card-access-level-taipan-research
+
+- type: accessGroup
+  id: TaipanResearch
+  tags:
+  - TaipanRD
+  - TaipanResearch
+
+- type: accessLevel
+  id: TaipanMedical
+  name: id-card-access-level-taipan-medical
+
+- type: accessGroup
+  id: TaipanMedical
+  tags:
+  - TaipanRD
+  - TaipanMedical

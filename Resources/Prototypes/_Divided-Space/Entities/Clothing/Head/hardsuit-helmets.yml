@@ -123,18 +123,18 @@
     tags:
     - WhitelistChameleon
 
-#TYPAN HARDSUITS
+#TAIPAN HARDSUITS
 
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
-  id: ClothingHeadHelmetHardsuitTypanAdvanced
-  name: typan advanced hardsuit helmet
-  description: Helmet of a Typan combat hardsuit, rebuild with more expansive and luxurious materials.
+  id: ClothingHeadHelmetHardsuitTaipanAdvanced
+  name: taipan advanced hardsuit helmet
+  description: Helmet of a Taipan combat hardsuit, rebuild with more expansive and luxurious materials.
   components:
   - type: Sprite
-    sprite: _Divided-Space/Clothing/Head/Hardsuits/Typan/typanadvanced.rsi
+    sprite: _Divided-Space/Clothing/Head/Hardsuits/Taipan/taipanadvanced.rsi
   - type: Clothing
-    sprite: _Divided-Space/Clothing/Head/Hardsuits/Typan/typanadvanced.rsi
+    sprite: _Divided-Space/Clothing/Head/Hardsuits/Taipan/taipanadvanced.rsi
   - type: PointLight
     color: "#03c178"
   - type: PressureProtection
@@ -155,14 +155,14 @@
 
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
-  id: ClothingHeadHelmetHardsuitTypanCombat
-  name: typan combat hardsuit helmet
+  id: ClothingHeadHelmetHardsuitTaipanCombat
+  name: taipan combat hardsuit helmet
   description: Helmet of a painfully famous blood-red hardsuit, refined for more defense.
   components:
   - type: Sprite
-    sprite: _Divided-Space/Clothing/Head/Hardsuits/Typan/typancombat.rsi
+    sprite: _Divided-Space/Clothing/Head/Hardsuits/Taipan/taipancombat.rsi
   - type: Clothing
-    sprite: _Divided-Space/Clothing/Head/Hardsuits/Typan/typancombat.rsi
+    sprite: _Divided-Space/Clothing/Head/Hardsuits/Taipan/taipancombat.rsi
   - type: PointLight
     color: "#03c178"
   - type: PressureProtection
@@ -183,14 +183,14 @@
 
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
-  id: ClothingHeadHelmetHardsuitTypanBasic
-  name: typan basic hardsuit helmet
+  id: ClothingHeadHelmetHardsuitTaipanBasic
+  name: taipan basic hardsuit helmet
   description: Made to seal your hardsuit, not really protect you from anything.
   components:
   - type: Sprite
-    sprite: _Divided-Space/Clothing/Head/Hardsuits/Typan/typanbasic.rsi
+    sprite: _Divided-Space/Clothing/Head/Hardsuits/Taipan/taipanbasic.rsi
   - type: Clothing
-    sprite: _Divided-Space/Clothing/Head/Hardsuits/Typan/typanbasic.rsi
+    sprite: _Divided-Space/Clothing/Head/Hardsuits/Taipan/taipanbasic.rsi
   - type: PointLight
     color: "#ffeead"
   - type: PressureProtection
@@ -211,14 +211,14 @@
 
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
-  id: ClothingHeadHelmetHardsuitTypanTech
-  name: typan technician hardsuit helmet
-  description: Typan technician helmet. Designed for working in low-pressure, high thermal environments.
+  id: ClothingHeadHelmetHardsuitTaipanTech
+  name: taipan technician hardsuit helmet
+  description: Taipan technician helmet. Designed for working in low-pressure, high thermal environments.
   components:
   - type: Sprite
-    sprite: _Divided-Space/Clothing/Head/Hardsuits/Typan/typantech.rsi
+    sprite: _Divided-Space/Clothing/Head/Hardsuits/Taipan/taipantech.rsi
   - type: Clothing
-    sprite: _Divided-Space/Clothing/Head/Hardsuits/Typan/typantech.rsi
+    sprite: _Divided-Space/Clothing/Head/Hardsuits/Taipan/taipantech.rsi
   - type: PointLight
     color: "#03c178"
   - type: PressureProtection

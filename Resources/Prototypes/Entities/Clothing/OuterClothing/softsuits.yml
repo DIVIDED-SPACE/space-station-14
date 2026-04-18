@@ -26,6 +26,22 @@
     sprite: Clothing/OuterClothing/Suits/eva_syndicate.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Suits/eva_syndicate.rsi
+  - type: Armor # Divided Space edit
+    components:
+    modifiers:
+      coefficients:
+        Blunt: 0.65
+        Slash: 0.65
+        Piercing: 0.65
+        Heat: 0.65
+        Caustic: 0.65
+  - type: TemperatureProtection
+    coefficient: 0.7
+  - type: ExplosionResistance
+    damageCoefficient: 0.7
+  - type: ClothingSpeedModifier
+    walkModifier: 0.8
+    sprintModifier: 0.75 #Divided Space edit end
   - type: Tag
     tags:
     - SuitEVA
