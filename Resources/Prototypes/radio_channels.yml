@@ -96,58 +96,40 @@
   # long range since otherwise it'd defeat the point of a handheld radio independent of telecomms
   longRange: true
 
+
 - type: radioChannel
-  id: Taypan
-  name: chat-radio-typan
-  keycode: '1'
+  id: ChannelTaipanHighCommand
+  name: chat-radio-taipan-highcom
+  keycode: '0'
+  frequency: 1020
+  color: "#9b1f5d"
+  longRange: true
+
+- type: radioChannel
+  id: ChannelTaipan
+  name: chat-radio-taipan
+  keycode: '9'
   frequency: 1021
   color: "#640014"
 
 - type: radioChannel
-  id: TaypanCommand
-  name: chat-radio-typan-command
-  keycode: '2'
-  frequency: 1022
-  color: "#a50028"
-
-- type: radioChannel
-  id: TaypanMaintenance
-  name: chat-radio-maintenance-typan
-  keycode: '3'
-  frequency: 1023
-  color: "#ff4628"
-
-- type: radioChannel
-  id: TypanMedical
-  name: chat-radio-medical-typan
-  keycode: '4' # Corvax-Localization
-  frequency: 1024
-  color: "#6cb9e6"
-
-- type: radioChannel
-  id: TypanScience
-  name: chat-radio-science-typan
-  keycode: '5' # Corvax-Localization
-  frequency: 1025
-  color: "#9731e0"
-
-- type: radioChannel
-  id: TypanSecurity
-  name: chat-radio-security-typan
-  keycode: '6' # Corvax-Localization
-  frequency: 1026
-  color: "#ff0028"
-
-- type: radioChannel
-  id: TypanService
-  name: chat-radio-service-typan
-  keycode: '7' # Corvax-Localization
-  frequency: 1028
-  color: "#00a658"
-
-- type: radioChannel
-  id: TaypanHighCommand
-  name: chat-radio-typan-highcom
+  id: ChannelGorlex
+  name: chat-radio-gorlex
   keycode: '8'
-  frequency: 1029
-  color: "#9b1f5d"
+  frequency: 1022
+  color: "#696877"
+  longRange: true
+
+- type: radioChannel
+  id: ChannelInterdyne
+  name: chat-radio-interdyne
+  keycode: '7'
+  frequency: 1023
+  color: "#638ed3"
+
+- type: radioChannel
+  id: ChannelCyberSun
+  name: chat-radio-cybersun
+  keycode: '6'
+  frequency: 1024
+  color: "#e37a13"

@@ -191,18 +191,18 @@
     - Hardsuit
     - WhitelistChameleon
 
-# TYPAN HARDSUITS
+# TAIPAN HARDSUITS
 
 - type: entity
   parent: ClothingOuterHardsuitBase
-  id: ClothingOuterHardsuitTypanAdvanced
-  name: typan advanced hardsuit
-  description: Typan combat hardsuit, rebuild with more expansive materials. Not so cheap anymore.
+  id: ClothingOuterHardsuitTaipanAdvanced
+  name: taipan advanced hardsuit
+  description: Taipan combat hardsuit, rebuild with more expansive materials. Not so cheap anymore.
   components:
   - type: Sprite
-    sprite: _Divided-Space/Clothing/OuterClothing/Hardsuits/Typan/typanadvanced.rsi
+    sprite: _Divided-Space/Clothing/OuterClothing/Hardsuits/Taipan/taipanadvanced.rsi
   - type: Clothing
-    sprite: _Divided-Space/Clothing/OuterClothing/Hardsuits/Typan/typanadvanced.rsi
+    sprite: _Divided-Space/Clothing/OuterClothing/Hardsuits/Taipan/taipanadvanced.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.03
     lowPressureMultiplier: 1000
@@ -222,7 +222,7 @@
     sprintModifier: 0.85
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitTypanAdvanced
+    clothingPrototype: ClothingHeadHelmetHardsuitTaipanAdvanced
   - type: Tag
     tags:
     - MonkeyWearable
@@ -231,14 +231,14 @@
 
 - type: entity
   parent: ClothingOuterHardsuitBase
-  id: ClothingOuterHardsuitTypanCombat
-  name: typan combat hardsuit
+  id: ClothingOuterHardsuitTaipanCombat
+  name: taipan combat hardsuit
   description: Painfully famous blood-red, refined for defensive combat. Heavier but cheaper.
   components:
   - type: Sprite
-    sprite: _Divided-Space/Clothing/OuterClothing/Hardsuits/Typan/typancombat.rsi
+    sprite: _Divided-Space/Clothing/OuterClothing/Hardsuits/Taipan/taipancombat.rsi
   - type: Clothing
-    sprite: _Divided-Space/Clothing/OuterClothing/Hardsuits/Typan/typancombat.rsi
+    sprite: _Divided-Space/Clothing/OuterClothing/Hardsuits/Taipan/taipancombat.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.05
     lowPressureMultiplier: 1000
@@ -267,14 +267,14 @@
 
 - type: entity
   parent: ClothingOuterHardsuitBase
-  id: ClothingOuterHardsuitTypanBasic
-  name: typan basic hardsuit
-  description: Basic hardsuit, designated to Typan crew members.
+  id: ClothingOuterHardsuitTaipanBasic
+  name: taipan basic hardsuit
+  description: Basic hardsuit, designated to Taipan crew members.
   components:
   - type: Sprite
-    sprite: _Divided-Space/Clothing/OuterClothing/Hardsuits/Typan/typanbasic.rsi
+    sprite: _Divided-Space/Clothing/OuterClothing/Hardsuits/Taipan/taipanbasic.rsi
   - type: Clothing
-    sprite: _Divided-Space/Clothing/OuterClothing/Hardsuits/Typan/typanbasic.rsi
+    sprite: _Divided-Space/Clothing/OuterClothing/Hardsuits/Taipan/taipanbasic.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 1000
@@ -294,7 +294,7 @@
     sprintModifier: 0.8
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitTypanBasic
+    clothingPrototype: ClothingHeadHelmetHardsuitTaipanBasic
   - type: Tag
     tags:
     - MonkeyWearable
@@ -303,14 +303,14 @@
 
 - type: entity
   parent: ClothingOuterHardsuitBase
-  id: ClothingOuterHardsuitTypanTech
-  name: typan technician hardsuit
+  id: ClothingOuterHardsuitTaipanTech
+  name: taipan technician hardsuit
   description: Hardsuit built to operate in harsh working environment.
   components:
   - type: Sprite
-    sprite: _Divided-Space/Clothing/OuterClothing/Hardsuits/Typan/typantech.rsi
+    sprite: _Divided-Space/Clothing/OuterClothing/Hardsuits/Taipan/taipantech.rsi
   - type: Clothing
-    sprite: _Divided-Space/Clothing/OuterClothing/Hardsuits/Typan/typantech.rsi
+    sprite: _Divided-Space/Clothing/OuterClothing/Hardsuits/Taipan/taipantech.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.03
     lowPressureMultiplier: 1000
@@ -334,7 +334,7 @@
     sprintModifier: 0.85
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitTypanTech
+    clothingPrototype: ClothingHeadHelmetHardsuitTaipanTech
   - type: Tag
     tags:
     - MonkeyWearable

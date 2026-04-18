@@ -1,0 +1,180 @@
+- type: entity
+  parent: Clothing
+  id: IDCardTaipanStandard
+  name: taipan identification card
+  description: A card necessary to access various areas aboard the taipan.
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: _Divided-Space/Objects/Misc/Taipan/id_cards.rsi
+  - type: Clothing
+    slots:
+    - idcard
+    sprite: _Divided-Space/Objects/Misc/Taipan/id_cards.rsi
+  - type: Item
+    size: Small
+    heldPrefix: default
+    storedRotation: -90
+  - type: Access
+  - type: IdCard
+  - type: StationRecordKeyStorage
+  - type: Tag
+    tags:
+    - DoorBumpOpener
+    - WhitelistChameleon
+
+- type: entity
+  parent: IDCardTaipanStandard
+  id: TaipanRecruitIDCard
+  name: taipan recruit ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: idtaipan
+    - state: idtaipanrecruit
+  - type: PresetIdCard
+    job: TaipanRecruit
+
+- type: entity
+  parent: IDCardTaipanStandard
+  id: TaipanCOIDCard
+  name: taipan communication officer ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: idtaipan
+    - state: idtaipanco
+  - type: PresetIdCard
+    job: TaipanCO
+
+- type: entity
+  parent: IDCardTaipanStandard
+  id: TaipanHighComIDCard
+  name: taipan high command ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: idtaipan
+    - state: idtaipanhighcom
+  - type: PresetIdCard
+    job: TaipanHighCom
+
+- type: entity
+  parent: IDCardTaipanStandard
+  id: TaipanRDIDCard
+  name: taipan research director ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: idtaipan
+    - state: idtaipanrd
+  - type: PresetIdCard
+    job: TaipanRD
+
+- type: entity
+  parent: IDCardTaipanStandard
+  id: TaipanResearcherIDCard
+  name: taipan researcher ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: idtaipan
+    - state: idtaipanresearcher
+  - type: PresetIdCard
+    job: TaipanResearcher
+
+- type: entity
+  parent: IDCardTaipanStandard
+  id: TaipanMedicIDCard
+  name: taipan medic ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: idtaipan
+    - state: idtaipanmedic
+  - type: PresetIdCard
+    job: TaipanMedic
+
+- type: entity
+  parent: IDCardTaipanStandard
+  id: TaipanParamedicIDCard
+  name: taipan paramedic ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: idtaipan
+    - state: idtaipanparamedic
+  - type: PresetIdCard
+    job: TaipanParamedic
+
+- type: entity
+  parent: IDCardTaipanStandard
+  id: TaipanSupervisorIDCard
+  name: taipan supervisor ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: idtaipan
+    - state: idtaipansupervisor
+  - type: PresetIdCard
+    job: TaipanSupervisor
+
+- type: entity
+  parent: IDCardTaipanStandard
+  id: TaipanCargoIDCard
+  name: taipan cargo technician ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: idtaipan
+    - state: idtaipancargo
+  - type: PresetIdCard
+    job: TaipanCargo
+
+- type: entity
+  parent: IDCardTaipanStandard
+  id: TaipanChefIDCard
+  name: taipan chef ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: idtaipan
+    - state: idtaipanchef
+  - type: PresetIdCard
+    job: TaipanChef
+
+- type: entity
+  parent: IDCardTaipanStandard
+  id: TaipanBotanistIDCard
+  name: taipan botanist ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: idtaipan
+    - state: idtaipanbotanist
+  - type: PresetIdCard
+    job: TaipanBotanist
+
+- type: entity
+  parent: IDCardTaipanStandard
+  id: TaipanTechnicianIDCard
+  name: taipan technician ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: idtaipan
+    - state: idtaipantechnician
+  - type: PresetIdCard
+    job: TaipanTechnician
+
+- type: entity
+  parent: IDCardTaipanStandard
+  id: TaipanAtmosIDCard
+  name: taipan atmospheric technician ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: idtaipan
+    - state: idtaipanatmos
+  - type: PresetIdCard
+    job: TaipanAtmos

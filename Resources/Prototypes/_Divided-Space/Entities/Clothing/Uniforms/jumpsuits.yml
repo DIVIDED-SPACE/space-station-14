@@ -1,46 +1,46 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingOuterStorageBase]
-  id: ClothingUniformJumpsuitTypanAtmos
+  id: ClothingUniformJumpsuitTaipanAtmos
   name: atmos technician uniform
   description:
   components:
   - type: Sprite
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/atmos.rsi
+    sprite: _Divided-Space/Clothing/Uniforms/Taipan/Jumpsuit/atmos.rsi
   - type: Clothing
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/atmos.rsi
+    sprite: _Divided-Space/Clothing/Uniforms/Taipan/Jumpsuit/atmos.rsi
 
 - type: entity
   parent: ClothingUniformBase
-  id: ClothingUniformJumpsuitTypanCargo
+  id: ClothingUniformJumpsuitTaipanCargo
   name: cargo-technician uniform
   description:
   components:
   - type: Sprite
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/cargo.rsi
+    sprite: _Divided-Space/Clothing/Uniforms/Taipan/Jumpsuit/cargo.rsi
   - type: Clothing
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/cargo.rsi
+    sprite: _Divided-Space/Clothing/Uniforms/Taipan/Jumpsuit/cargo.rsi
 
 - type: entity
   parent: ClothingUniformBase
-  id: ClothingUniformJumpsuitTypanChef
-  name: typan chef uniform
+  id: ClothingUniformJumpsuitTaipanChef
+  name: taipan chef uniform
   description:
   components:
   - type: Sprite
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/chef.rsi
+    sprite: _Divided-Space/Clothing/Uniforms/Taipan/Jumpsuit/chef.rsi
   - type: Clothing
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/chef.rsi
+    sprite: _Divided-Space/Clothing/Uniforms/Taipan/Jumpsuit/chef.rsi
 
 - type: entity
   parent: [ClothingUniformBase, ClothingOuterStorageBase]
-  id: ClothingUniformJumpsuitTypanCO
+  id: ClothingUniformJumpsuitTaipanCO
   name: communication officer uniform
   description:
   components:
   - type: Sprite
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/co.rsi
+    sprite: _Divided-Space/Clothing/Uniforms/Taipan/Jumpsuit/co.rsi
   - type: Clothing
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/co.rsi
+    sprite: _Divided-Space/Clothing/Uniforms/Taipan/Jumpsuit/co.rsi
   - type: Armor
     modifiers:
       coefficients:
@@ -51,80 +51,80 @@
 
 - type: entity
   parent: ClothingUniformBase
-  id: ClothingUniformJumpsuitTypanCOFormal
+  id: ClothingUniformJumpsuitTaipanCOFormal
   name: communication officer formal uniform
   description:
   components:
   - type: Sprite
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/coformal.rsi
+    sprite: _Divided-Space/Clothing/Uniforms/Taipan/Jumpsuit/coformal.rsi
   - type: Clothing
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/coformal.rsi
+    sprite: _Divided-Space/Clothing/Uniforms/Taipan/Jumpsuit/coformal.rsi
 
 - type: entity
   parent: ClothingUniformBase
-  id: ClothingUniformJumpsuitTypanHighCom
-  name: typan high command uniform
+  id: ClothingUniformJumpsuitTaipanHighCom
+  name: taipan high command uniform
   description:
   components:
   - type: Sprite
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/highcom.rsi
+    sprite: _Divided-Space/Clothing/Uniforms/Taipan/Jumpsuit/highcom.rsi
   - type: Clothing
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/highcom.rsi
+    sprite: _Divided-Space/Clothing/Uniforms/Taipan/Jumpsuit/highcom.rsi
 
 - type: entity
   parent: [ClothingUniformBase, ClothingOuterStorageBase]
-  id: ClothingUniformJumpsuitTypanHydro
-  name: typan botanist uniform
+  id: ClothingUniformJumpsuitTaipanHydro
+  name: taipan botanist uniform
   description:
   components:
   - type: Sprite
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/botanist.rsi
+    sprite: _Divided-Space/Clothing/Uniforms/Taipan/Jumpsuit/botanist.rsi
   - type: Clothing
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/botanist.rsi
+    sprite: _Divided-Space/Clothing/Uniforms/Taipan/Jumpsuit/botanist.rsi
 
 - type: entity
   parent: [ClothingUniformBase, ClothingOuterStorageBase]
-  id: ClothingUniformJumpsuitTypanMaintenance
-  name: typan maintenance uniform
+  id: ClothingUniformJumpsuitTaipanMaintenance
+  name: taipan maintenance uniform
   description:
   components:
   - type: Sprite
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/technician.rsi
+    sprite: _Divided-Space/Clothing/Uniforms/Taipan/Jumpsuit/technician.rsi
   - type: Clothing
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/technician.rsi
+    sprite: _Divided-Space/Clothing/Uniforms/Taipan/Jumpsuit/technician.rsi
 
 - type: entity
   parent: ClothingUniformBase
-  id: ClothingUniformJumpsuitTypanMedic
-  name: typan medic uniform
+  id: ClothingUniformJumpsuitTaipanMedic
+  name: taipan medic uniform
   description:
   components:
   - type: Sprite
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/medic.rsi
+    sprite: _Divided-Space/Clothing/Uniforms/Taipan/Jumpsuit/medic.rsi
   - type: Clothing
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/medic.rsi
+    sprite: _Divided-Space/Clothing/Uniforms/Taipan/Jumpsuit/medic.rsi
 
 - type: entity
   parent: [ClothingUniformBase, ClothingOuterStorageBase]
-  id: ClothingUniformJumpsuitTypanParamedic
-  name: typan paramedic uniform
+  id: ClothingUniformJumpsuitTaipanParamedic
+  name: taipan paramedic uniform
   description:
   components:
   - type: Sprite
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/paramedic.rsi
+    sprite: _Divided-Space/Clothing/Uniforms/Taipan/Jumpsuit/paramedic.rsi
   - type: Clothing
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/paramedic.rsi
+    sprite: _Divided-Space/Clothing/Uniforms/Taipan/Jumpsuit/paramedic.rsi
 
 - type: entity
   parent: [ClothingUniformBase, ClothingOuterStorageBase]
-  id: ClothingUniformJumpsuitTypanRD
+  id: ClothingUniformJumpsuitTaipanRD
   name: research director uniform
   description:
   components:
   - type: Sprite
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/rd.rsi
+    sprite: _Divided-Space/Clothing/Uniforms/Taipan/Jumpsuit/rd.rsi
   - type: Clothing
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/rd.rsi
+    sprite: _Divided-Space/Clothing/Uniforms/Taipan/Jumpsuit/rd.rsi
   - type: Armor
     modifiers:
       coefficients:
@@ -134,47 +134,47 @@
 
 - type: entity
   parent: ClothingUniformBase
-  id: ClothingUniformJumpsuitTypanRDFormal
+  id: ClothingUniformJumpsuitTaipanRDFormal
   name: research director formal uniform
   description:
   components:
   - type: Sprite
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/rdformal.rsi
+    sprite: _Divided-Space/Clothing/Uniforms/Taipan/Jumpsuit/rdformal.rsi
   - type: Clothing
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/rdformal.rsi
+    sprite: _Divided-Space/Clothing/Uniforms/Taipan/Jumpsuit/rdformal.rsi
 
 - type: entity
   parent: [ClothingUniformBase, ClothingOuterStorageBase]
-  id: ClothingUniformJumpsuitTypanResearch
-  name: typan research uniform
+  id: ClothingUniformJumpsuitTaipanResearch
+  name: taipan research uniform
   description:
   components:
   - type: Sprite
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/researcher.rsi
+    sprite: _Divided-Space/Clothing/Uniforms/Taipan/Jumpsuit/researcher.rsi
   - type: Clothing
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/researcher.rsi
+    sprite: _Divided-Space/Clothing/Uniforms/Taipan/Jumpsuit/researcher.rsi
 
 - type: entity
   parent: ClothingUniformBase
-  id: ClothingUniformJumpsuitTypanRecruit
-  name: typan recruit uniform
+  id: ClothingUniformJumpsuitTaipanRecruit
+  name: taipan recruit uniform
   description:
   components:
   - type: Sprite
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/recruit.rsi
+    sprite: _Divided-Space/Clothing/Uniforms/Taipan/Jumpsuit/recruit.rsi
   - type: Clothing
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/recruit.rsi
+    sprite: _Divided-Space/Clothing/Uniforms/Taipan/Jumpsuit/recruit.rsi
 
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitTypanSupervisor
-  name: typan supervisor uniform
+  name: taipan supervisor uniform
   description:
   components:
   - type: Sprite
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/supervisor.rsi
+    sprite: _Divided-Space/Clothing/Uniforms/Taipan/Jumpsuit/supervisor.rsi
   - type: Clothing
-    sprite: _Divided-Space/Clothing/Uniforms/Typan/Jumpsuit/supervisor.rsi
+    sprite: _Divided-Space/Clothing/Uniforms/Taipan/Jumpsuit/supervisor.rsi
 
 - type: entity
   parent: ClothingUniformBase

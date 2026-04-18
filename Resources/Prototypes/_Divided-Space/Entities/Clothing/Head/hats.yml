@@ -1,0 +1,127 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBeretTaipanHighCom
+  name: high command beret
+  description: An extravagant, fancy High Commander cap.
+  components:
+  - type: Sprite
+    sprite: _Divided-Space/Clothing/Head/Hats/Taipan/beret_highcom.rsi
+  - type: Clothing
+    sprite: _Divided-Space/Clothing/Head/Hats/Taipan/beret_highcom.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - HamsterWearable
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBeretTaipanCO
+  name: co's beret
+  description: The robust standard-issue beret of the communication officer. For showing the personnel who's in charge.
+  components:
+  - type: Sprite
+    sprite: _Divided-Space/Clothing/Head/Hats/Taipan/beret_co.rsi
+  - type: Clothing
+    sprite: _Divided-Space/Clothing/Head/Hats/Taipan/beret_co.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - HamsterWearable
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBeretTaipanRD
+  name: research director's beret
+  description: A beret for real scientists.
+  components:
+  - type: Sprite
+    sprite: _Divided-Space/Clothing/Head/Hats/Taipan/beret_rd.rsi
+  - type: Clothing
+    sprite: _Divided-Space/Clothing/Head/Hats/Taipan/beret_rd.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - HamsterWearable
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBeretTaipanSupervisor
+  name: supervisor's beret
+  description: A beret with the Taipan's insignia emblazoned on it. For supervisors that are more inclined towards style.
+  components:
+  - type: Sprite
+    sprite: _Divided-Space/Clothing/Head/Hats/Taipan/beret_supervisor.rsi
+  - type: Clothing
+    sprite: _Divided-Space/Clothing/Head/Hats/Taipan/beret_supervisor.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - HamsterWearable
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBeretTaipanRecruit
+  name: recruit's beret
+  description: A beret with the Taipan's insignia emblazoned on it. A stylish clothing option for Syndicate recruits.
+  components:
+  - type: Sprite
+    sprite: _Divided-Space/Clothing/Head/Hats/Taipan/beret_recruit.rsi
+  - type: Clothing
+    sprite: _Divided-Space/Clothing/Head/Hats/Taipan/beret_recruit.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - HamsterWearable
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBeretTaipanBotanist
+  name: green beret beret
+  description: For people who have gone through a lot. For the warriors in the Garden
+  components:
+  - type: Sprite
+    sprite: _Divided-Space/Clothing/Head/Hats/Taipan/beret_botanist.rsi
+  - type: Clothing
+    sprite: _Divided-Space/Clothing/Head/Hats/Taipan/beret_botanist.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - HamsterWearable
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBeretGorlex
+  name: gorlex officer's beret
+  description: A black beret with a rank emblem. For officers that are more inclined towards style than safety.
+  components:
+  - type: Sprite
+    sprite: _Divided-Space/Clothing/Head/Hats/beret_gorlex.rsi
+  - type: Clothing
+    sprite: _Divided-Space/Clothing/Head/Hats/beret_gorlex.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - HamsterWearable
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBeretSyndi
+  name: blood-red beret
+  description: A blood-red beret with a rank emblem. For Syndicate operatives that are more inclined towards style than safety.
+  components:
+  - type: Sprite
+    sprite: _Divided-Space/Clothing/Head/Hats/beret_syndi.rsi
+  - type: Clothing
+    sprite: _Divided-Space/Clothing/Head/Hats/beret_syndi.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - HamsterWearable
+    - WhitelistChameleon
